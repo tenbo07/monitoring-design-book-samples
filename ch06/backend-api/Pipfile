@@ -1,0 +1,25 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+flake8 = "*"
+pycodestyle = "*"
+black = "*"
+
+[packages]
+aws-cdk-core = "*"
+aws-cdk-aws-apigateway = "*"
+aws-cdk-aws-lambda = "*"
+aws-cdk-aws-s3 = "*"
+aws-cdk-aws-dynamodb = "*"
+aws-cdk-aws-codecommit = "*"
+aws-cdk-aws-codebuild = "*"
+aws-cdk-aws-codepipeline = "*"
+aws-cdk-aws-codepipeline_actions = "*"
+aws-cdk-aws-codedeploy = "*"
+black = "*"
+
+[pipenv]
+allow_prereleases = true

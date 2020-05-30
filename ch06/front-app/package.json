@@ -1,0 +1,22 @@
+{
+  "name": "todo-app",
+  "version": "1.0.0",
+  "description": "My remarkable Nuxt.js project",
+  "author": "tenbo07",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "nuxt": "^2.0.0"
+  },
+  "devDependencies": {
+    "@mdi/font": "^4.9.95",
+    "@nuxtjs/vuetify": "^1.0.0",
+    "axios": "^0.19.2",
+    "file-loader": "^5.0.2"
+  }
+}
